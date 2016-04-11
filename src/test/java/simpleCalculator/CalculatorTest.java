@@ -24,5 +24,11 @@ public class CalculatorTest {
 		calc.sub(10, 20);
 		assertEquals(-10, calc.getResult());
 	}
+	@Test
+	public void testDiv(){
+		Calculator calc = new Calculator();
+		calc.div(10, 20);
+		assertEquals(0, calc.getResult());
+	}
 
 }
